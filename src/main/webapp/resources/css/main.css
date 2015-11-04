@@ -1,0 +1,106 @@
+body {
+    background-color: red;
+}
+
+#main-container {
+	margin-top: 100px;
+}
+
+.navbar-positioned {
+	margin-top: 7px;
+}
+
+div.lessons-list {
+    padding: 3px;
+}
+
+.breadcrumb {
+	font-size: 1.3em;
+}
+
+#display-text {
+	font-size: 1.3em;
+}
+
+.lesson-title {
+	display:block;
+	height: 40px;
+	padding: 10px 0 0 10px ;
+}
+
+.lesson-title:hover {
+	text-decoration: none;	
+}
+
+#lessons-list .panel-heading {
+	padding: 0;
+}
+
+#lessons-list .panel-heading:hover {
+	background-color: #D8D8D8;
+}
+
+#lessons-list .element-title:hover {
+	cursor: pointer;
+	background-color: #B7E6FD;
+}
+
+.fileinput-button {
+    margin-right: 10px;
+    height: 35px;
+    width: 110px;
+    overflow: hidden;
+    position: relative;
+}
+
+#drop-area {
+	border: 4px dashed black;
+	width: 350px;
+	height: 80px;
+	text-align: center;
+	margin-left: 145px;
+	margin-top: -33px;
+}
+
+#drop-area span {
+	position: relative;
+	top: 20px;
+}
+
+#upload-progress {
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+#upload-progress .plainoverlay {
+	background-color: white!important;
+}
+
+#fileupload {
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	cursor: inherit;
+}
+
+audio {
+	width: 100%;
+}
+
+.modules-progress {
+	width: 100%;
+	max-width: 100%;
+}
+
+#edit-course #thumbnail {
+	height: 150px;
+}
+
+#courses .course-thumbnail {
+	height: 150px;
+}
